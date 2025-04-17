@@ -1,0 +1,274 @@
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\NowyTowarView.baml
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\App.g.cs
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\WPF MVVM Application_MarkupCompile.cache
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\bin\Debug\WPF MVVM Application.exe
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\bin\Debug\WPF MVVM Application.pdb
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\WPF MVVM Application.g.resources
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\WPFFirma.Properties.Resources.resources
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\WPF MVVM Application.exe
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\WPF MVVM Application.pdb
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\MainWindow.baml
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\MainWindow.g.cs
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\WPF MVVM Application_MarkupCompile.lref
+C:\Users\Artur\AppData\Local\Temporary Projects\WPFFirma\obj\x86\Debug\Views\MainWindowResources.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.pdb
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\App.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\WPFFirma.Properties.Resources.resources
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.exe
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.pdb
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\App.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\Zajecia2011\IO\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.exe
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.pdb
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\App.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+E:\Moje\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.GenerateResource.Cache
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.exe
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.pdb
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.csprojResolveAssemblyReference.cache
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\App.g.cs
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+C:\Users\Serwer\Desktop\Materiały\Projektowanie i Realizacja oraz Pracownia Programowania III 2007 C#\MVVM2012-poprawka\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.GenerateResource.Cache
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.exe
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\bin\Debug\MVVMFirma.pdb
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.csprojAssemblyReference.cache
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\App.g.cs
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.GenerateResource.cache
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+C:\Users\akornatka\Desktop\ZajTiU\Moje\SameOkna\MVVMFirmaSameOkna\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe.config
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.pdb
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.AssemblyReference.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\App.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.GenerateResource.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.CoreCompileInputs.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Przed pierwszymi zajęciami\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe.config
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.pdb
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.AssemblyReference.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyTowarView.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieTowaryView.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\App.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.GenerateResource.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.CoreCompileInputs.cache
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+C:\Users\akornatka\Desktop\Zajecia 2024\PDAB\Zajecia\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe.config
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.exe
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\MVVMFirma.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\EntityFramework.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\EntityFramework.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.AssemblyReference.cache
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkiePracownicyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\App.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_Content.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.cache
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma_MarkupCompile.lref
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Themes\Generic.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindow.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\MainWindowResources.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkiePracownicyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.g.resources
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.Properties.Resources.resources
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.GenerateResource.cache
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.CoreCompileInputs.cache
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.csproj.Up2Date
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.exe
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\MVVMFirma.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyPracownikView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyPracownikView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaKategoriaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieKategorieView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaKategoriaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieKategorieView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyMagazynView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieMagazynyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyMagazynView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieMagazynyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyAdresView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieAdresyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyAdresView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieAdresyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieZamowieniaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieZamowieniaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NoweZamowienieView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NoweZamowienieView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieKlienciView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieKlienciView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieHistorieLogowaniaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieHistorieLogowaniaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieFakturyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieFakturyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieZapasyMagazynowView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieZapasyMagazynowView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieSzczegolyZamowieniaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieSzczegolyZamowieniaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieKontrahenciView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieKontrahenciView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieDostawyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieDostawyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieReklamacjiView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieReklamacjiView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieProduktyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieProduktyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkiePromocjeView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkiePromocjeView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyDostawyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyDostawyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaFakturaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaFakturaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaHistoriaLogowaniaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaHistoriaLogowaniaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyKontrahentView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyKontrahentView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyKlientView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyKlientView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyProduktView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyProduktView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowePromocjeView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowePromocjeView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaReklamacjaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowaReklamacjaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NoweSzczegolyZamowieniaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NoweSzczegolyZamowieniaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NoweZapasyMagazynoweView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NoweZapasyMagazynoweView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\StyleJedenViewBase.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\StyleWszystkieViewBase.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\UtragZamowieniaView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\UtragZamowieniaView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\RaportSprzedazyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\RaportSprzedazyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\App.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\RaportFakturyView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\RaportFakturyView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\itextsharp.dll
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\bin\Debug\itextsharp.xml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\LoginView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\LoginView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieAdminView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\WszystkieAdminView.baml
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyAdminView.g.cs
+C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\obj\x86\Debug\Views\NowyAdminView.baml
