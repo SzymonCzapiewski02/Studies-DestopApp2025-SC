@@ -1,0 +1,1 @@
+# Studies-DestopApp2025-SC
