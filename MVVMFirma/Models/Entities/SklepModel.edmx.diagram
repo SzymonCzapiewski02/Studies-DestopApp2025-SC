@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="47cbb1d9dc854a2591b47a23466e534a" Name="Diagram1">
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Admin" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Adres" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Dostawy" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Faktury" Width="1.5" PointX="10.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.HistoriaLogowania" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Kategorie" Width="1.5" PointX="9" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Klienci" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Kontrahenci" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Magazyny" Width="1.5" PointX="11.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Pracownicy" Width="1.5" PointX="6" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Produkty" Width="1.5" PointX="11.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Promocje" Width="1.5" PointX="13.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Reklamacje" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.SzczegolyDostawy" Width="1.5" PointX="7.5" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.SzczegolyZamowienia" Width="1.5" PointX="13.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.Zamowienia" Width="1.5" PointX="8.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepSamochodowyModel.ZapasyMagazynowe" Width="1.5" PointX="13.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Dostawcy__IdAdre__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Klienci__IdAdres__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Dostawy__IdDosta__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Szczegoly__IdDos__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Faktury__IdZamow__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK_Faktury_Pracownicy" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__HistoriaL__IdKli__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK_Produkty_Kategorie" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Reklamacj__IdKli__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Zamowieni__IdKli__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__ZapasyMag__IdMag__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK_Zamowienia_Pracownicy" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Promocje__IdProd__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Szczegoly__IdPro__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Szczegoly__IdPro__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__ZapasyMag__IdPro__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Reklamacj__IdZam__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepSamochodowyModel.FK__Szczegoly__IdZam__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
