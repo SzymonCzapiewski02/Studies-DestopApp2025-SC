@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SklepSamochodowyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="idAdmin" />
+    </Key>
+    <Property Name="idAdmin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Haslo" Type="nvarchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Adres">
+    <Key>
+      <PropertyRef Name="IdAdresu" />
+    </Key>
+    <Property Name="IdAdresu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ulica" Type="varchar" MaxLength="100" />
+    <Property Name="Miasto" Type="varchar" MaxLength="50" />
+    <Property Name="KodPocztowy" Type="varchar" MaxLength="10" />
+    <Property Name="Kraj" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Dostawy">
+    <Key>
+      <PropertyRef Name="IdDostawy" />
+    </Key>
+    <Property Name="IdDostawy" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdKontrahentow" Type="int" />
+    <Property Name="DataDostawy" Type="date" />
+    <Property Name="Status" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Faktury">
+    <Key>
+      <PropertyRef Name="IdFaktury" />
+    </Key>
+    <Property Name="IdFaktury" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdZamowienia" Type="int" />
+    <Property Name="DataWystawienia" Type="date" />
+    <Property Name="KwotaCalkowita" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="TerminPlatnosci" Type="datetime" />
+    <Property Name="NumerFaktury" Type="varchar" MaxLength="50" />
+    <Property Name="IdPracownika" Type="int" />
+    <Property Name="TypFaktury" Type="varchar" MaxLength="20" />
+    <Property Name="StatusFaktury" Type="bit" />
+    <Property Name="Waluta" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HistoriaLogowania">
+    <Key>
+      <PropertyRef Name="IdLogowania" />
+    </Key>
+    <Property Name="IdLogowania" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdKlienta" Type="int" />
+    <Property Name="DataLogowania" Type="datetime" />
+    <Property Name="AdresIP" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="Kategorie">
+    <Key>
+      <PropertyRef Name="IdKategorii" />
+    </Key>
+    <Property Name="IdKategorii" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazwa" Type="varchar" MaxLength="50" />
+    <Property Name="Opis" Type="text" />
+  </EntityType>
+  <EntityType Name="Klienci">
+    <Key>
+      <PropertyRef Name="IdKlienta" />
+    </Key>
+    <Property Name="IdKlienta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Imie" Type="varchar" MaxLength="50" />
+    <Property Name="Nazwisko" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Telefon" Type="varchar" MaxLength="15" />
+    <Property Name="IdAdresu" Type="int" />
+    <Property Name="DataRejestracji" Type="date" />
+    <Property Name="Haslo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Kontrahenci">
+    <Key>
+      <PropertyRef Name="IdKontrahenta" />
+    </Key>
+    <Property Name="IdKontrahenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazwa" Type="varchar" MaxLength="100" />
+    <Property Name="Kontakt" Type="varchar" MaxLength="100" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Telefon" Type="varchar" MaxLength="15" />
+    <Property Name="IdAdresu" Type="int" />
+    <Property Name="NIP" Type="varchar" MaxLength="20" />
+    <Property Name="Regon" Type="varchar" MaxLength="14" />
+    <Property Name="TypKontrahenta" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StatusKontrahenta" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DataUtworzenia" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Magazyny">
+    <Key>
+      <PropertyRef Name="IdMagazynu" />
+    </Key>
+    <Property Name="IdMagazynu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Lokalizacja" Type="varchar" MaxLength="100" />
+    <Property Name="Nazwa" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Pracownicy">
+    <Key>
+      <PropertyRef Name="IdPracownika" />
+    </Key>
+    <Property Name="IdPracownika" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Imie" Type="varchar" MaxLength="50" />
+    <Property Name="Nazwisko" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Telefon" Type="varchar" MaxLength="15" />
+    <Property Name="Stanowisko" Type="varchar" MaxLength="50" />
+    <Property Name="DataZatrudnienia" Type="date" />
+  </EntityType>
+  <EntityType Name="Produkty">
+    <Key>
+      <PropertyRef Name="IdProduktu" />
+    </Key>
+    <Property Name="IdProduktu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nazwa" Type="varchar" MaxLength="100" />
+    <Property Name="IdKategori" Type="int" />
+    <Property Name="Producent" Type="varchar" MaxLength="50" />
+    <Property Name="NumerCzesci" Type="varchar" MaxLength="50" />
+    <Property Name="Cena" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Opis" Type="text" />
+    <Property Name="Dostepny" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Promocje">
+    <Key>
+      <PropertyRef Name="IdPromocji" />
+    </Key>
+    <Property Name="IdPromocji" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdProduktu" Type="int" />
+    <Property Name="DataRozpoczecia" Type="date" />
+    <Property Name="DataZakonczenia" Type="date" />
+    <Property Name="NowaCena" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Aktywna" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reklamacje">
+    <Key>
+      <PropertyRef Name="IdReklamacji" />
+    </Key>
+    <Property Name="IdReklamacji" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdKlienta" Type="int" />
+    <Property Name="IdZamowienia" Type="int" />
+    <Property Name="DataReklamacji" Type="date" />
+    <Property Name="Opis" Type="text" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="SzczegolyDostawy">
+    <Key>
+      <PropertyRef Name="IdSzczegoluDostawy" />
+    </Key>
+    <Property Name="IdSzczegoluDostawy" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdDostawy" Type="int" />
+    <Property Name="IdProduktu" Type="int" />
+    <Property Name="Ilosc" Type="int" />
+    <Property Name="CenaZakupu" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="SzczegolyZamowienia">
+    <Key>
+      <PropertyRef Name="IdSzczegolu" />
+    </Key>
+    <Property Name="IdSzczegolu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdZamowienia" Type="int" />
+    <Property Name="IdProduktu" Type="int" />
+    <Property Name="Ilosc" Type="int" />
+  </EntityType>
+  <EntityType Name="Zamowienia">
+    <Key>
+      <PropertyRef Name="IdZamowienia" />
+    </Key>
+    <Property Name="IdZamowienia" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdKlienta" Type="int" />
+    <Property Name="DataZamowienia" Type="date" />
+    <Property Name="Status" Type="varchar" MaxLength="20" />
+    <Property Name="CenaCalkowita" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Zamkniete" Type="bit" />
+    <Property Name="NumerReferencyjny" Type="varchar" MaxLength="50" />
+    <Property Name="IdPracownika" Type="int" />
+    <Property Name="KanalZamowienia" Type="varchar" MaxLength="50" />
+    <Property Name="Komentarze" Type="text" />
+    <Property Name="MetodaPlatnosci" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="ZapasyMagazynowe">
+    <Key>
+      <PropertyRef Name="IdZapasowMagazynowe" />
+    </Key>
+    <Property Name="IdZapasowMagazynowe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdMagazynu" Type="int" />
+    <Property Name="IdProduktu" Type="int" />
+    <Property Name="Ilosc" Type="int" />
+  </EntityType>
+  <Association Name="FK__Dostawcy__IdAdre__46E78A0C">
+    <End Role="Adres" Type="Self.Adres" Multiplicity="0..1" />
+    <End Role="Kontrahenci" Type="Self.Kontrahenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adres">
+        <PropertyRef Name="IdAdresu" />
+      </Principal>
+      <Dependent Role="Kontrahenci">
+        <PropertyRef Name="IdAdresu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Dostawy__IdDosta__49C3F6B7">
+    <End Role="Kontrahenci" Type="Self.Kontrahenci" Multiplicity="0..1" />
+    <End Role="Dostawy" Type="Self.Dostawy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kontrahenci">
+        <PropertyRef Name="IdKontrahenta" />
+      </Principal>
+      <Dependent Role="Dostawy">
+        <PropertyRef Name="IdKontrahentow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Faktury__IdZamow__5070F446">
+    <End Role="Zamowienia" Type="Self.Zamowienia" Multiplicity="0..1" />
+    <End Role="Faktury" Type="Self.Faktury" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zamowienia">
+        <PropertyRef Name="IdZamowienia" />
+      </Principal>
+      <Dependent Role="Faktury">
+        <PropertyRef Name="IdZamowienia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HistoriaL__IdKli__619B8048">
+    <End Role="Klienci" Type="Self.Klienci" Multiplicity="0..1" />
+    <End Role="HistoriaLogowania" Type="Self.HistoriaLogowania" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienci">
+        <PropertyRef Name="IdKlienta" />
+      </Principal>
+      <Dependent Role="HistoriaLogowania">
+        <PropertyRef Name="IdKlienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Klienci__IdAdres__3D5E1FD2">
+    <End Role="Adres" Type="Self.Adres" Multiplicity="0..1" />
+    <End Role="Klienci" Type="Self.Klienci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adres">
+        <PropertyRef Name="IdAdresu" />
+      </Principal>
+      <Dependent Role="Klienci">
+        <PropertyRef Name="IdAdresu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Promocje__IdProd__5AEE82B9">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="0..1" />
+    <End Role="Promocje" Type="Self.Promocje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="IdProduktu" />
+      </Principal>
+      <Dependent Role="Promocje">
+        <PropertyRef Name="IdProduktu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reklamacj__IdKli__5DCAEF64">
+    <End Role="Klienci" Type="Self.Klienci" Multiplicity="0..1" />
+    <End Role="Reklamacje" Type="Self.Reklamacje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienci">
+        <PropertyRef Name="IdKlienta" />
+      </Principal>
+      <Dependent Role="Reklamacje">
+        <PropertyRef Name="IdKlienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reklamacj__IdZam__5EBF139D">
+    <End Role="Zamowienia" Type="Self.Zamowienia" Multiplicity="0..1" />
+    <End Role="Reklamacje" Type="Self.Reklamacje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zamowienia">
+        <PropertyRef Name="IdZamowienia" />
+      </Principal>
+      <Dependent Role="Reklamacje">
+        <PropertyRef Name="IdZamowienia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Szczegoly__IdDos__4CA06362">
+    <End Role="Dostawy" Type="Self.Dostawy" Multiplicity="0..1" />
+    <End Role="SzczegolyDostawy" Type="Self.SzczegolyDostawy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dostawy">
+        <PropertyRef Name="IdDostawy" />
+      </Principal>
+      <Dependent Role="SzczegolyDostawy">
+        <PropertyRef Name="IdDostawy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Szczegoly__IdPro__440B1D61">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="0..1" />
+    <End Role="SzczegolyZamowienia" Type="Self.SzczegolyZamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="IdProduktu" />
+      </Principal>
+      <Dependent Role="SzczegolyZamowienia">
+        <PropertyRef Name="IdProduktu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Szczegoly__IdPro__4D94879B">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="0..1" />
+    <End Role="SzczegolyDostawy" Type="Self.SzczegolyDostawy" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="IdProduktu" />
+      </Principal>
+      <Dependent Role="SzczegolyDostawy">
+        <PropertyRef Name="IdProduktu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Szczegoly__IdZam__4316F928">
+    <End Role="Zamowienia" Type="Self.Zamowienia" Multiplicity="0..1" />
+    <End Role="SzczegolyZamowienia" Type="Self.SzczegolyZamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Zamowienia">
+        <PropertyRef Name="IdZamowienia" />
+      </Principal>
+      <Dependent Role="SzczegolyZamowienia">
+        <PropertyRef Name="IdZamowienia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Zamowieni__IdKli__403A8C7D">
+    <End Role="Klienci" Type="Self.Klienci" Multiplicity="0..1" />
+    <End Role="Zamowienia" Type="Self.Zamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klienci">
+        <PropertyRef Name="IdKlienta" />
+      </Principal>
+      <Dependent Role="Zamowienia">
+        <PropertyRef Name="IdKlienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ZapasyMag__IdMag__571DF1D5">
+    <End Role="Magazyny" Type="Self.Magazyny" Multiplicity="0..1" />
+    <End Role="ZapasyMagazynowe" Type="Self.ZapasyMagazynowe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Magazyny">
+        <PropertyRef Name="IdMagazynu" />
+      </Principal>
+      <Dependent Role="ZapasyMagazynowe">
+        <PropertyRef Name="IdMagazynu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ZapasyMag__IdPro__5812160E">
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="0..1" />
+    <End Role="ZapasyMagazynowe" Type="Self.ZapasyMagazynowe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produkty">
+        <PropertyRef Name="IdProduktu" />
+      </Principal>
+      <Dependent Role="ZapasyMagazynowe">
+        <PropertyRef Name="IdProduktu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Faktury_Pracownicy">
+    <End Role="Pracownicy" Type="Self.Pracownicy" Multiplicity="0..1" />
+    <End Role="Faktury" Type="Self.Faktury" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pracownicy">
+        <PropertyRef Name="IdPracownika" />
+      </Principal>
+      <Dependent Role="Faktury">
+        <PropertyRef Name="IdPracownika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produkty_Kategorie">
+    <End Role="Kategorie" Type="Self.Kategorie" Multiplicity="0..1" />
+    <End Role="Produkty" Type="Self.Produkty" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategorie">
+        <PropertyRef Name="IdKategorii" />
+      </Principal>
+      <Dependent Role="Produkty">
+        <PropertyRef Name="IdKategori" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zamowienia_Pracownicy">
+    <End Role="Pracownicy" Type="Self.Pracownicy" Multiplicity="0..1" />
+    <End Role="Zamowienia" Type="Self.Zamowienia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pracownicy">
+        <PropertyRef Name="IdPracownika" />
+      </Principal>
+      <Dependent Role="Zamowienia">
+        <PropertyRef Name="IdPracownika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SklepSamochodowyModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Adres" EntityType="Self.Adres" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Dostawy" EntityType="Self.Dostawy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Faktury" EntityType="Self.Faktury" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistoriaLogowania" EntityType="Self.HistoriaLogowania" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kategorie" EntityType="Self.Kategorie" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Klienci" EntityType="Self.Klienci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kontrahenci" EntityType="Self.Kontrahenci" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Magazyny" EntityType="Self.Magazyny" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pracownicy" EntityType="Self.Pracownicy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produkty" EntityType="Self.Produkty" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Promocje" EntityType="Self.Promocje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reklamacje" EntityType="Self.Reklamacje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SzczegolyDostawy" EntityType="Self.SzczegolyDostawy" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SzczegolyZamowienia" EntityType="Self.SzczegolyZamowienia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zamowienia" EntityType="Self.Zamowienia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ZapasyMagazynowe" EntityType="Self.ZapasyMagazynowe" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Dostawcy__IdAdre__46E78A0C" Association="Self.FK__Dostawcy__IdAdre__46E78A0C">
+      <End Role="Adres" EntitySet="Adres" />
+      <End Role="Kontrahenci" EntitySet="Kontrahenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Dostawy__IdDosta__49C3F6B7" Association="Self.FK__Dostawy__IdDosta__49C3F6B7">
+      <End Role="Kontrahenci" EntitySet="Kontrahenci" />
+      <End Role="Dostawy" EntitySet="Dostawy" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Faktury__IdZamow__5070F446" Association="Self.FK__Faktury__IdZamow__5070F446">
+      <End Role="Zamowienia" EntitySet="Zamowienia" />
+      <End Role="Faktury" EntitySet="Faktury" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HistoriaL__IdKli__619B8048" Association="Self.FK__HistoriaL__IdKli__619B8048">
+      <End Role="Klienci" EntitySet="Klienci" />
+      <End Role="HistoriaLogowania" EntitySet="HistoriaLogowania" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Klienci__IdAdres__3D5E1FD2" Association="Self.FK__Klienci__IdAdres__3D5E1FD2">
+      <End Role="Adres" EntitySet="Adres" />
+      <End Role="Klienci" EntitySet="Klienci" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Promocje__IdProd__5AEE82B9" Association="Self.FK__Promocje__IdProd__5AEE82B9">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="Promocje" EntitySet="Promocje" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reklamacj__IdKli__5DCAEF64" Association="Self.FK__Reklamacj__IdKli__5DCAEF64">
+      <End Role="Klienci" EntitySet="Klienci" />
+      <End Role="Reklamacje" EntitySet="Reklamacje" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reklamacj__IdZam__5EBF139D" Association="Self.FK__Reklamacj__IdZam__5EBF139D">
+      <End Role="Zamowienia" EntitySet="Zamowienia" />
+      <End Role="Reklamacje" EntitySet="Reklamacje" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Szczegoly__IdDos__4CA06362" Association="Self.FK__Szczegoly__IdDos__4CA06362">
+      <End Role="Dostawy" EntitySet="Dostawy" />
+      <End Role="SzczegolyDostawy" EntitySet="SzczegolyDostawy" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Szczegoly__IdPro__440B1D61" Association="Self.FK__Szczegoly__IdPro__440B1D61">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="SzczegolyZamowienia" EntitySet="SzczegolyZamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Szczegoly__IdPro__4D94879B" Association="Self.FK__Szczegoly__IdPro__4D94879B">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="SzczegolyDostawy" EntitySet="SzczegolyDostawy" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Szczegoly__IdZam__4316F928" Association="Self.FK__Szczegoly__IdZam__4316F928">
+      <End Role="Zamowienia" EntitySet="Zamowienia" />
+      <End Role="SzczegolyZamowienia" EntitySet="SzczegolyZamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Zamowieni__IdKli__403A8C7D" Association="Self.FK__Zamowieni__IdKli__403A8C7D">
+      <End Role="Klienci" EntitySet="Klienci" />
+      <End Role="Zamowienia" EntitySet="Zamowienia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ZapasyMag__IdMag__571DF1D5" Association="Self.FK__ZapasyMag__IdMag__571DF1D5">
+      <End Role="Magazyny" EntitySet="Magazyny" />
+      <End Role="ZapasyMagazynowe" EntitySet="ZapasyMagazynowe" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ZapasyMag__IdPro__5812160E" Association="Self.FK__ZapasyMag__IdPro__5812160E">
+      <End Role="Produkty" EntitySet="Produkty" />
+      <End Role="ZapasyMagazynowe" EntitySet="ZapasyMagazynowe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Faktury_Pracownicy" Association="Self.FK_Faktury_Pracownicy">
+      <End Role="Pracownicy" EntitySet="Pracownicy" />
+      <End Role="Faktury" EntitySet="Faktury" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produkty_Kategorie" Association="Self.FK_Produkty_Kategorie">
+      <End Role="Kategorie" EntitySet="Kategorie" />
+      <End Role="Produkty" EntitySet="Produkty" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zamowienia_Pracownicy" Association="Self.FK_Zamowienia_Pracownicy">
+      <End Role="Pracownicy" EntitySet="Pracownicy" />
+      <End Role="Zamowienia" EntitySet="Zamowienia" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

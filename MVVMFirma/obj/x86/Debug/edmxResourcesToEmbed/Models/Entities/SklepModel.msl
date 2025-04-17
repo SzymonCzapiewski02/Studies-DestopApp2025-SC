@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SklepSamochodowyModelStoreContainer" CdmEntityContainer="SklepSamochodowyEntities">
+    <EntitySetMapping Name="Admin">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="idAdmin" ColumnName="idAdmin" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Haslo" ColumnName="Haslo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Adres">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Adres">
+        <MappingFragment StoreEntitySet="Adres">
+          <ScalarProperty Name="IdAdresu" ColumnName="IdAdresu" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+          <ScalarProperty Name="KodPocztowy" ColumnName="KodPocztowy" />
+          <ScalarProperty Name="Kraj" ColumnName="Kraj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dostawy">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Dostawy">
+        <MappingFragment StoreEntitySet="Dostawy">
+          <ScalarProperty Name="IdDostawy" ColumnName="IdDostawy" />
+          <ScalarProperty Name="IdKontrahentow" ColumnName="IdKontrahentow" />
+          <ScalarProperty Name="DataDostawy" ColumnName="DataDostawy" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Faktury">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Faktury">
+        <MappingFragment StoreEntitySet="Faktury">
+          <ScalarProperty Name="IdFaktury" ColumnName="IdFaktury" />
+          <ScalarProperty Name="IdZamowienia" ColumnName="IdZamowienia" />
+          <ScalarProperty Name="DataWystawienia" ColumnName="DataWystawienia" />
+          <ScalarProperty Name="KwotaCalkowita" ColumnName="KwotaCalkowita" />
+          <ScalarProperty Name="TerminPlatnosci" ColumnName="TerminPlatnosci" />
+          <ScalarProperty Name="NumerFaktury" ColumnName="NumerFaktury" />
+          <ScalarProperty Name="IdPracownika" ColumnName="IdPracownika" />
+          <ScalarProperty Name="TypFaktury" ColumnName="TypFaktury" />
+          <ScalarProperty Name="StatusFaktury" ColumnName="StatusFaktury" />
+          <ScalarProperty Name="Waluta" ColumnName="Waluta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoriaLogowania">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.HistoriaLogowania">
+        <MappingFragment StoreEntitySet="HistoriaLogowania">
+          <ScalarProperty Name="IdLogowania" ColumnName="IdLogowania" />
+          <ScalarProperty Name="IdKlienta" ColumnName="IdKlienta" />
+          <ScalarProperty Name="DataLogowania" ColumnName="DataLogowania" />
+          <ScalarProperty Name="AdresIP" ColumnName="AdresIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kategorie">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Kategorie">
+        <MappingFragment StoreEntitySet="Kategorie">
+          <ScalarProperty Name="IdKategorii" ColumnName="IdKategorii" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Klienci">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Klienci">
+        <MappingFragment StoreEntitySet="Klienci">
+          <ScalarProperty Name="IdKlienta" ColumnName="IdKlienta" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="IdAdresu" ColumnName="IdAdresu" />
+          <ScalarProperty Name="DataRejestracji" ColumnName="DataRejestracji" />
+          <ScalarProperty Name="Haslo" ColumnName="Haslo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrahenci">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Kontrahenci">
+        <MappingFragment StoreEntitySet="Kontrahenci">
+          <ScalarProperty Name="IdKontrahenta" ColumnName="IdKontrahenta" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Kontakt" ColumnName="Kontakt" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="IdAdresu" ColumnName="IdAdresu" />
+          <ScalarProperty Name="NIP" ColumnName="NIP" />
+          <ScalarProperty Name="Regon" ColumnName="Regon" />
+          <ScalarProperty Name="TypKontrahenta" ColumnName="TypKontrahenta" />
+          <ScalarProperty Name="StatusKontrahenta" ColumnName="StatusKontrahenta" />
+          <ScalarProperty Name="DataUtworzenia" ColumnName="DataUtworzenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Magazyny">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Magazyny">
+        <MappingFragment StoreEntitySet="Magazyny">
+          <ScalarProperty Name="IdMagazynu" ColumnName="IdMagazynu" />
+          <ScalarProperty Name="Lokalizacja" ColumnName="Lokalizacja" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pracownicy">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Pracownicy">
+        <MappingFragment StoreEntitySet="Pracownicy">
+          <ScalarProperty Name="IdPracownika" ColumnName="IdPracownika" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="DataZatrudnienia" ColumnName="DataZatrudnienia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produkty">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Produkty">
+        <MappingFragment StoreEntitySet="Produkty">
+          <ScalarProperty Name="IdProduktu" ColumnName="IdProduktu" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="IdKategori" ColumnName="IdKategori" />
+          <ScalarProperty Name="Producent" ColumnName="Producent" />
+          <ScalarProperty Name="NumerCzesci" ColumnName="NumerCzesci" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+          <ScalarProperty Name="Dostepny" ColumnName="Dostepny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Promocje">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Promocje">
+        <MappingFragment StoreEntitySet="Promocje">
+          <ScalarProperty Name="IdPromocji" ColumnName="IdPromocji" />
+          <ScalarProperty Name="IdProduktu" ColumnName="IdProduktu" />
+          <ScalarProperty Name="DataRozpoczecia" ColumnName="DataRozpoczecia" />
+          <ScalarProperty Name="DataZakonczenia" ColumnName="DataZakonczenia" />
+          <ScalarProperty Name="NowaCena" ColumnName="NowaCena" />
+          <ScalarProperty Name="Aktywna" ColumnName="Aktywna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reklamacje">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Reklamacje">
+        <MappingFragment StoreEntitySet="Reklamacje">
+          <ScalarProperty Name="IdReklamacji" ColumnName="IdReklamacji" />
+          <ScalarProperty Name="IdKlienta" ColumnName="IdKlienta" />
+          <ScalarProperty Name="IdZamowienia" ColumnName="IdZamowienia" />
+          <ScalarProperty Name="DataReklamacji" ColumnName="DataReklamacji" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SzczegolyDostawy">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.SzczegolyDostawy">
+        <MappingFragment StoreEntitySet="SzczegolyDostawy">
+          <ScalarProperty Name="IdSzczegoluDostawy" ColumnName="IdSzczegoluDostawy" />
+          <ScalarProperty Name="IdDostawy" ColumnName="IdDostawy" />
+          <ScalarProperty Name="IdProduktu" ColumnName="IdProduktu" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="CenaZakupu" ColumnName="CenaZakupu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SzczegolyZamowienia">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.SzczegolyZamowienia">
+        <MappingFragment StoreEntitySet="SzczegolyZamowienia">
+          <ScalarProperty Name="IdSzczegolu" ColumnName="IdSzczegolu" />
+          <ScalarProperty Name="IdZamowienia" ColumnName="IdZamowienia" />
+          <ScalarProperty Name="IdProduktu" ColumnName="IdProduktu" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienia">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.Zamowienia">
+        <MappingFragment StoreEntitySet="Zamowienia">
+          <ScalarProperty Name="IdZamowienia" ColumnName="IdZamowienia" />
+          <ScalarProperty Name="IdKlienta" ColumnName="IdKlienta" />
+          <ScalarProperty Name="DataZamowienia" ColumnName="DataZamowienia" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CenaCalkowita" ColumnName="CenaCalkowita" />
+          <ScalarProperty Name="Zamkniete" ColumnName="Zamkniete" />
+          <ScalarProperty Name="NumerReferencyjny" ColumnName="NumerReferencyjny" />
+          <ScalarProperty Name="IdPracownika" ColumnName="IdPracownika" />
+          <ScalarProperty Name="KanalZamowienia" ColumnName="KanalZamowienia" />
+          <ScalarProperty Name="Komentarze" ColumnName="Komentarze" />
+          <ScalarProperty Name="MetodaPlatnosci" ColumnName="MetodaPlatnosci" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZapasyMagazynowe">
+      <EntityTypeMapping TypeName="SklepSamochodowyModel.ZapasyMagazynowe">
+        <MappingFragment StoreEntitySet="ZapasyMagazynowe">
+          <ScalarProperty Name="IdZapasowMagazynowe" ColumnName="IdZapasowMagazynowe" />
+          <ScalarProperty Name="IdMagazynu" ColumnName="IdMagazynu" />
+          <ScalarProperty Name="IdProduktu" ColumnName="IdProduktu" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
