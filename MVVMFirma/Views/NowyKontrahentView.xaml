@@ -1,0 +1,53 @@
+﻿<local:JedenViewBase x:Class="MVVMFirma.Views.NowyKontrahentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFirma.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="900">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="StyleJedenViewBase.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid Background="white">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="250"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" Style="{StaticResource RoundedLaberBoxStyle}" Content="Nazwa"/>
+        <TextBox Grid.Column="1" Grid.Row="0" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=Nazwa, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="0" Grid.Row="1" Style="{StaticResource RoundedLaberBoxStyle}" Content="Kontakt"/>
+        <TextBox Grid.Column="1" Grid.Row="1" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=Kontakt, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="0" Grid.Row="2" Style="{StaticResource RoundedLaberBoxStyle}" Content="Email"/>
+        <TextBox Grid.Column="1" Grid.Row="2" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=Email, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="0" Grid.Row="3" Style="{StaticResource RoundedLaberBoxStyle}" Content="Telefon"/>
+        <TextBox Grid.Column="1" Grid.Row="3" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=Telefon, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="0" Grid.Row="4" Style="{StaticResource RoundedLaberBoxStyle}" Content="Adresu"/>
+        <TextBox Grid.Column="1" Grid.Row="4" IsEnabled="False" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=AdresUlica, UpdateSourceTrigger=PropertyChanged}"/>
+        <Button Content="..." Grid.Column="2" Grid.Row="4" Margin="4,8,4,8" Command="{Binding ShowAdresy}"/>
+        <Label Grid.Column="3" Grid.Row="0" Style="{StaticResource RoundedLaberBoxStyle}" Content="NIP"/>
+        <TextBox Grid.Column="4" Grid.Row="0" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=NIP, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="3" Grid.Row="1" Style="{StaticResource RoundedLaberBoxStyle}" Content="Regon"/>
+        <TextBox Grid.Column="4" Grid.Row="1" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=Regon, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="3" Grid.Row="2" Style="{StaticResource RoundedLaberBoxStyle}" Content="Typ Kontrahenta"/>
+        <TextBox Grid.Column="4" Grid.Row="2" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=TypKontrahenta, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="3" Grid.Row="3" Style="{StaticResource RoundedLaberBoxStyle}" Content="Data Utworzenia"/>
+        <DatePicker Grid.Column="4" Grid.Row="3" Style="{StaticResource RoundedDatePickerStyle}" SelectedDate="{Binding Path=DataUtworzenia, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+        <Label Grid.Column="3" Grid.Row="4" Style="{StaticResource RoundedLaberBoxStyle}" Content="Status Kontrahenta"/>
+        <TextBox Grid.Column="4" Grid.Row="4" Style="{StaticResource RoundedTextBoxStyle}" Text="{Binding Path=StatusKontrahenta, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"/>
+    </Grid>
+</local:JedenViewBase>

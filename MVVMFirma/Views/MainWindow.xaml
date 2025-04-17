@@ -1,0 +1,122 @@
+﻿<Window x:Class="MVVMFirma.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+        Title="SklepSachodowyMVVMFilma" Height="1000" Width="967" WindowState="Maximized"
+        xmlns:vm="clr-namespace:MVVMFirma.Views"
+        >
+    <Window.Resources>
+        <ResourceDictionary Source="MainWindowResources.xaml"  />
+    </Window.Resources>
+    <Grid Background="white">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Border Background="Blue" 
+                BorderBrush="Black" 
+                BorderThickness="1,1,1,1" 
+                CornerRadius="3" 
+                Padding="10,15,10,0" 
+                Grid.Column="0" 
+                Grid.Row="0" 
+                Grid.ColumnSpan="3" >
+            <Menu Foreground="white" FontWeight="Bold" FontSize="15" Background="Transparent">
+                <MenuItem Header="Start" Margin="8,0,8,0"/>
+                <MenuItem Header="Ogólne" Margin="8,0,8,0"/>
+                <MenuItem Header="KSeF" Margin="8,0,8,0"/>
+                <MenuItem Header="CRM" Margin="8,0,8,0"/>
+                <MenuItem Header="Hander" Margin="8,0,8,0"/>
+                <MenuItem Header="Kasa/Bank" Margin="8,0,8,0"/>
+                <MenuItem Header="Rejestry VAT" Margin="8,0,8,0"/>
+                <MenuItem Header="Ksiagowość" Margin="8,0,8,0"/>
+                <MenuItem Header="JPK" Margin="8,0,8,0"/>
+                <MenuItem Header="Płace i Kadry" Margin="8,0,8,0"/>
+                <MenuItem Header="Widok" Margin="8,0,8,0"/>
+                <MenuItem Header="Narzędzia" Margin="8,0,8,0"/>
+                <MenuItem Header="Pomoc" Margin="8,0,8,0"/>
+            </Menu>
+        </Border>
+        <ToolBar  BorderBrush="Black" 
+                  BorderThickness="0,0,0,2"    
+                  Background="Aqua" 
+                  Grid.Column="0" 
+                  Grid.Row="1" 
+                  Grid.ColumnSpan="2" 
+                  Margin="2">
+            <ToggleButton Width="auto" Height="80" Margin="5">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Image Source="C:\Users\Szymon\Desktop\w\MVVMFirma\MVVMFirma\Image\Icon\printer.png" Width="52" Height="52"/>
+                    <TextBlock Text="Wydrukuj" FontSize="10" HorizontalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton Width="auto" Height="80" Margin="5">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Image Source="\Image\Icon\sent-mail.png" Width="52" Height="52"/>
+                    <TextBlock Text="Wyśli" FontSize="10" HorizontalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton Width="auto" Height="80" Margin="5">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Image Source="\Image\Icon\export.png" Width="52" Height="52"/>
+                    <TextBlock Text="Eksport" FontSize="10" HorizontalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+            <Separator/>
+            <ToggleButton Width="auto" Height="80" Margin="5">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Image Source="\Image\Icon\financial.png" Width="52" Height="52"/>
+                    <TextBlock Text="Rozliczenie" FontSize="10" HorizontalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+            <ToggleButton Width="auto" Height="80" Margin="5">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Image Source="\Image\Icon\document.png" Width="52" Height="52"/>
+                    <TextBlock Text="Kontrola duplikacji" FontSize="10" HorizontalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+            <Separator/>
+            <ToggleButton Width="auto" Height="80" Margin="5">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                    <Image Source="\Image\Icon\description.png" Width="52" Height="52"/>
+                    <TextBlock Text="Opis analityczny" FontSize="10" HorizontalAlignment="Center" />
+                </StackPanel>
+            </ToggleButton>
+            <Separator/>
+        </ToolBar>
+        <Border Grid.Row="2" Grid.Column="0">
+            <HeaderedContentControl 
+            Header="Menu Nawigazyjne"  
+            Content="{Binding Path=Commands}"
+            ContentTemplate="{StaticResource CommandsTemplate}"
+            Background="White"
+            FontSize="20"
+            FontWeight="Bold"
+            HorizontalAlignment="Center"
+            Width="180"
+        />
+        </Border>
+        <Border Grid.Row="2" Grid.Column="1">
+            <HeaderedContentControl 
+                Content="{Binding Path=Workspaces}"
+                ContentTemplate="{StaticResource WorkspacesTemplate}"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" 
+            />
+        </Border>
+        <StatusBar Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2">
+            <StatusBarItem>
+                <TextBlock>Szymon Czapiewski</TextBlock>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem >
+                <TextBlock>WSB-NLU</TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

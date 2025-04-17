@@ -1,0 +1,39 @@
+﻿<local:WszystkieViewBase x:Class="MVVMFirma.Views.WszystkieKontrahenciView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVMFirma.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="StyleWszystkieViewBase.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid Background="White">
+        <DataGrid AutoGenerateColumns="False" 
+                    ColumnHeaderStyle="{StaticResource DataHeader}" 
+                    ItemsSource="{Binding List}"
+                    IsReadOnly="True"
+                  SelectedItem="{Binding Path=WybranyKontrahenci, Mode=TwoWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding IdKontrahenta}"/>
+                <DataGridTextColumn Header="Nazwa" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Nazwa}"/>
+                <DataGridTextColumn Header="Kontakt" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Kontakt}"/>
+                <DataGridTextColumn Header="Email" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Telefon" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Telefon}"/>
+                <DataGridTextColumn Header="Ulica" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Ulica}"/>
+                <DataGridTextColumn Header="Miasto" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Miasto}"/>
+                <DataGridTextColumn Header="Kod Pocztowy" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding KodPocztowy}"/>
+                <DataGridTextColumn Header="NIP" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding NIP}"/>
+                <DataGridTextColumn Header="Regon" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding Regon}"/>
+                <DataGridTextColumn Header="Typ Kontrahenta" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding TypKontrahenta}"/>
+                <DataGridTextColumn Header="Data Utworzenia" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding DataUtworzenia}"/>
+                <DataGridTextColumn Header="Status Kontrahenta" ElementStyle="{StaticResource TextBlockS}" Binding="{Binding StatusKontrahenta}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</local:WszystkieViewBase>
